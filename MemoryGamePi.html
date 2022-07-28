@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/memoryGame.ico">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="./welcomeStyle.css">
+</head>
+<body>
+<div class="wrapper">
+    <div class="title">
+    <h1  id="title1">Memory Game</h1>
+    </div>
+    
+    <div class="choose" id="choose">
+        <p id="title2">選擇牌組</p>
+        <div id="themes">
+            <button class="theme" onclick="window.location.href='MemoryGame.html'">經典派</button>
+            <button class="theme" onclick="window.location.href='MemoryGameDoggo.html'">狗　派</button>
+            <button class="theme" onclick="window.location.href='MemoryGameCat.html'">貓　派</button>
+            <button class="theme" onclick="window.location.href='MemoryGameApple.html'">蘋果派</button>
+            <button class="theme" onclick="window.location.href='MemoryGameMEME.html'">新藝術派</button>
+
+            <!-- <button class="theme" onclick="gotoTheme()" value="classic" id="classic">經典派</button>
+            <button class="theme" onclick="gotoTheme()" value="doggo" id="doggo">狗　派</button>
+            <button class="theme" onclick="gotoTheme()" value="cat" id="cat">貓　派</button>
+            <button class="theme" onclick="gotoTheme()" value="apple" id="apple">蘋果派</button>
+            <button class="theme" onclick="gotoTheme()" value="meme" id="meme">新藝術派</button> -->
+        </div>
+    </div>
+    
+    <div class="murmur">
+        <p id="murmur">你好啊</p>
+    </div>
+
+    <div class="background">
+        <img id="bgpic2" src="img/face.svg">
+        <img id="bgpic" src="img/body.svg">
+    </div>
+
+    <div class="about">
+        <p id="about">Created by JunSu (2022)</p>
+    </div>
+    
+</div>
+
+<!--javascript-->
+    <script src="./welcomeScript.js"></script>
+    
+</body>
+</html>

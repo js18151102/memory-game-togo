@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/memoryGame.ico">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1 id="title1">Memory Game</h1>
+    <h3 id="title2">翻開牌！配對牌！越快越好！</h3>
+
+    <!--設牌12張，正面6種花色各2張，背面1種花色-->
+    <section class="memory-game">    
+        <div class="card" data-framework="A">
+            <img class="Fside" src="img/cat/f01.png" alt="A" name="img1" id="img11">
+            <img class="Bside" src="img/cardback.svg" alt="MemoryGame">
+        </div>
+        <div class="card" data-framework="A">
+            <img class="Fside" src="img/cat/f01.png" alt="A" name="img1" id="img12">
+            <img class="Bside" src="img/cardback.svg" alt="MemoryGame">
+        </div>
+
+        <div class="card" data-framework="B">
+            <img class="Fside" src="img/cat/f02.png" alt="B" name="img2" id="img12">
+            <img class="Bside" src="img/cardback.svg" alt="MemoryGame">
+        </div>
+        <div class="card" data-framework="B">
+            <img class="Fside" src="img/cat/f02.png" alt="B" name="img2" id="img22">
+            <img class="Bside" src="img/cardback.svg" alt="MemoryGame">
+        </div>
+
+        <div class="card" data-framework="C">
+            <img class="Fside" src="img/cat/f03.png" alt="C" name="img3" id="img31">
+            <img class="Bside" src="img/cardback.svg" alt="MemoryGame">
+        </div>
+        <div class="card" data-framework="C">
+            <img class="Fside" src="img/cat/f03.png" alt="C" name="img3" id="img32">
+            <img class="Bside" src="img/cardback.svg" alt="MemoryGame">
+        </div>
+
+        <div class="card" data-framework="D">
+            <img class="Fside" src="img/cat/f04.png" alt="D" name="img4" id="img41">
+            <img class="Bside" src="img/cardback.svg" alt="MemoryGame">
+        </div>
+        <div class="card" data-framework="D">
+            <img class="Fside" src="img/cat/f04.png" alt="D" name="img4" id="img42">
+            <img class="Bside" src="img/cardback.svg" alt="MemoryGame">
+        </div>
+
+        <div class="card" data-framework="E">
+            <img class="Fside" src="img/cat/f05.png" alt="E" name="img5" id="img51">
+            <img class="Bside" src="img/cardback.svg" alt="MemoryGame">
+        </div>
+        <div class="card" data-framework="E">
+            <img class="Fside" src="img/cat/f05.png" alt="E" name="img5" id="img52">
+            <img class="Bside" src="img/cardback.svg" alt="MemoryGame">
+        </div>
+        
+        <div class="card" data-framework="F">
+            <img class="Fside" src="img/cat/f06.png" alt="F" name="img6" id="img61">
+            <img class="Bside" src="img/cardback.svg" alt="MemoryGame">
+        </div>
+        <div class="card" data-framework="F">
+            <img class="Fside" src="img/cat/f06.png" alt="F" name="img6" id="img62">
+            <img class="Bside" src="img/cardback.svg" alt="MemoryGame">
+        </div>
+
+        <div class="card" data-framework="G">
+            <img class="Fside" src="img/cat/f07.png" alt="G" name="img7" id="img71">
+            <img class="Bside" src="img/cardback.svg" alt="MemoryGame">
+        </div>
+        <div class="card" data-framework="G">
+            <img class="Fside" src="img/cat/f07.png" alt="G" name="img7" id="img72">
+            <img class="Bside" src="img/cardback.svg" alt="MemoryGame">
+        </div>
+
+        <div class="card" data-framework="H">
+            <img class="Fside" src="img/cat/f08.png" alt="H" name="img8" id="img81">
+            <img class="Bside" src="img/cardback.svg" alt="MemoryGame">
+        </div>
+        <div class="card" data-framework="H">
+            <img class="Fside" src="img/cat/f08.png" alt="H" name="img8" id="img82">
+            <img class="Bside" src="img/cardback.svg" alt="MemoryGame">
+        </div>
+    
+    </section>
+
+    <!--設計時與翻牌次數計數-->
+    <div class="state">
+        <span>Moves: </span>
+        <span id="moves">0</span>
+        <span>Time:</span>
+        <span id="time">00:00</span>
+    </div>
+
+    <!--開始-->
+    <section id="start" class="">
+        <div class="explain">
+            <span><h2>-遊戲說明-</h2></span>
+            <span><h4>1. 點擊牌，牌就會翻開。</h4></span>
+            <span><h4>2. 連續點開兩張相同的牌，即成功達成配對。沒配對成功就會蓋回去。</h4></span>
+            <span><h4>3. 配對所有的牌，越快越好！</h4></span>
+            <br>
+            <span>準備好了嗎？</span>
+            <br>
+            <button id="startBtn" onclick="startGame()"><h3>按我開始！</h3></button>
+        </div>
+    </section>
+
+    <!--結束-->
+    <section id="end" class="hide">
+        <div class="explain">
+            <h2>BRAVO!</h2>
+            <p id="score">顯示分數</p>
+            <p id="comment">顯示評語</p>
+            <br>
+            <button id="endBtn" onclick="javascript:location.href='MemoryGamePi.html'">再一次！</button>
+        </div>
+    </section>
+
+    <!--javascript-->
+    <script src="./script.js"></script>
+</body>
+</html>

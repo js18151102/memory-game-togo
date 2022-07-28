@@ -1,0 +1,170 @@
+/*先將所有元素部分屬性歸零*/
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*設定所有元素範圍*/
+html{
+    height: 100%; 
+}
+
+body{
+    height: 100%;
+    background: gainsboro;
+}
+
+/*grid*/
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: 3% 5% 15% 1fr 2fr 3%;
+}
+
+.title{
+    grid-area: title;
+    grid-row: 2/3;
+    grid-column: 1/21;
+}
+
+.choose{
+    grid-area: choose;
+    grid-row: 4/6;
+    grid-column: 1/7;
+}
+
+.background{
+    grid-area: bg;
+    grid-row: 3/6;
+    grid-column: 7/21;
+}
+
+.about{
+    grid-area: about;
+    grid-row: 6/7;
+    grid-column: 1/21;
+}
+
+.murmur{
+    grid-area: murmur;
+    grid-row: 4/5;
+    grid-column: 7/21;
+}
+
+
+/*設定標題*/
+#title1{
+    background-color: rgb(20, 20, 20);
+    color: rgb(235, 235, 235);
+    padding: 1rem;
+    font-size: 5rem;
+    text-align: center;
+}
+
+/*背景*/
+.background{
+    height: 100%; 
+    width: 100%; 
+    overflow: hidden;
+}
+
+#bgpic{
+    position: fixed;
+    z-index: -5;
+
+    width: 60rem;
+    height: 60rem;
+    right: -15rem;
+    bottom: -12rem;
+
+    background-size: cover;
+
+    animation: rotation 14s infinite linear;
+}
+
+#bgpic2{
+    position:fixed;
+    z-index: 10;
+
+    width: 10rem;
+    height: 10rem;
+    right: 18rem;
+    bottom: 20rem;
+}
+
+.murmur{
+    white-space: pre-line;
+    top: 5rem;
+    z-index: 50;
+}
+
+#murmur{  /*text*/
+    color: rgb(136, 136, 136);
+    padding: 0.5rem;
+    font-size: 2.8rem;
+    font-weight: 550;
+    text-align: left;
+}
+
+
+/*設定選擇區*/
+#choose{
+    background-color: #7c7c7c;
+    width: 75%;
+    padding: 20px 20px 30px 20px;
+    z-index: 100;
+}
+
+#title2{
+    color: rgb(255, 255, 255);
+    padding: 0.5rem;
+    font-size: 2.8rem;
+    font-weight: 550;
+    text-align:left;
+}
+
+#themes{
+    margin: auto;
+    text-align: center;
+}
+
+/*設定主題按鈕*/
+.theme{
+    background: white;
+    margin: 10px;
+    padding: 15px;
+    width: 240px;
+    
+    color: #7c7c7c;
+    font-size: 2rem;
+    font-weight:bold;
+    
+    border: none;
+    border-radius: 500px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, .3);  /*透明陰影*/
+}
+
+.theme:hover{
+    background: #383838;
+    color: white;
+}
+
+/*底註*/
+.about{
+    color: #7c7c7c;
+    padding: 1rem;
+    font-size: 1rem;
+    text-align:left;
+    bottom: 10px;
+}
+
+
+/*選轉動畫*/
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="90.423187"
+   height="139.61664"
+   viewBox="0 0 90.423187 139.61664"
+   version="1.1"
+   id="SVGRoot"
+   sodipodi:docname="f.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview166"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="1.2003863"
+     inkscape:cx="105.79928"
+     inkscape:cy="665.61907"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showguides="false">
+    <sodipodi:guide
+       position="851.5722,254.13805"
+       orientation="1,0"
+       id="guide18"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs161" />
+  <g
+     inkscape:label="圖層 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(332.5726,-649.34924)">
+    <path
+       style="fill:#000000"
+       d="m -293.23893,703.10699 c -3.05458,0 -6.13716,0.41271 -9.16372,0 -10.80647,-1.47361 -27.0306,-8.15456 -29.99035,-19.99356 -0.40409,-1.61639 0,-3.33226 0,-4.99839 0,-6.90697 -0.9242,-5.58629 4.99839,-12.49598 9.34126,-10.89813 24.35416,-11.73707 37.48794,-13.32904 11.22344,-1.36042 25.27213,-3.9839 36.65486,-2.4992 8.84596,1.15382 13.33883,20.80706 9.99678,27.49115 -0.79517,1.59036 -2.23372,2.7672 -3.33226,4.16533 -6.17198,7.85525 -9.36612,11.93443 -19.16049,14.99517 -4.49933,1.40604 -12.73515,2.93566 -17.49437,3.33226 -1.66038,0.13837 -3.41776,-0.52688 -4.99839,0 -1.89968,0.63323 -3.33226,2.22151 -4.99839,3.33226 z"
+       id="path201"
+       inkscape:export-filename="path201.svg"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:#000000"
+       d="m -299.90346,788.07964 c -1.76556,0.89307 -12.41789,0.9697 -12.49597,0.83306 -1.04924,-1.83617 -2.01482,-3.77286 -2.4992,-5.83145 -0.58394,-2.48174 -1.27887,-13.00483 -0.83306,-15.82824 1.54291,-9.77182 7.32702,-19.8886 13.32904,-27.49115 5.87735,-7.44465 16.60671,-15.15657 26.65808,-13.32904 8.22839,1.49607 14.48154,10.31621 19.99357,15.82823 6.82787,6.82787 14.49077,15.36949 13.32904,25.82502 -0.73838,6.64542 -6.586,10.7775 -11.66291,14.16211 -1.66613,1.11075 -3.11261,2.65877 -4.99839,3.33226 -2.10837,0.75299 -4.44626,0.53058 -6.66452,0.83307 -3.8911,0.5306 -7.74738,1.36493 -11.66292,1.66613 -2.12791,0.16368 -12.89145,1.27065 -15.82823,-1.66613"
+       id="path203" />
+  </g>
+</svg>
